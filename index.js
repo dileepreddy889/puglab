@@ -24,6 +24,7 @@ pug_exp.post('/displayDetails', function (req,res) {
   res.render('display_Details',{loginCookie: req.cookies.loginCookie});
 });
 
-pug_exp.listen(3000, function(){
+var port = process.env.PORT || 8080;
+pug_exp.listen(port, function(){
   console.log("Listening to port 3000")
 });
