@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.4",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-cli": "^1.0.0-alpha6",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
